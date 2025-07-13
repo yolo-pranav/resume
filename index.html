@@ -1,448 +1,298 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
-
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Pranav Gupta - Resume</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
+  <meta charset="utf-8">
+  <title>Pranav Gupta - Embedded Hardware Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Resume of Pranav Gupta, Embedded Hardware Engineer">
+  <meta name="author" content="Pranav Gupta">
+  <!-- Tailwind CSS CDN for rapid prototyping -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="favicon.png">
 </head>
-
-<body>
-
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <!--<li><a class="smoothscroll" href="#portfolio">Works</a></li>-->
-            <!--<li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>-->
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">I'm Pranav Gupta.</h1>
-            <h3>I'm a mern-stack based <span>Web Developer</span>. 
-               I have a lot of interest in <span>embedded systems</span> and <span>bio-signals</span>. 
-               I also have good hand in <span>graphic designing</span>. 
-               Let's <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://www.facebook.com/yolo.pranav"><i class="fa fa-facebook"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-               <li><a href="guptapranav0144@gmail.com"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/pranav-gupta-863179225/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/yolo.pranav"><i class="fa fa-instagram"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-               <!--<li><a href="#"><i class="fa fa-skype"></i></a></li>-->
-            </ul>
-         </div>
+<body class="min-h-screen">
+  <!-- Navigation -->
+  <nav class="nav-tech w-full py-4 px-6 flex justify-between items-center sticky top-0 z-50">
+    <div class="flex items-center gap-2">
+      <span class="icon-circuit"><svg fill="none" viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="6" stroke="#64ffda" stroke-width="2"/><circle cx="8" cy="8" r="2" fill="#64ffda"/><circle cx="24" cy="24" r="2" fill="#64ffda"/><rect x="14" y="14" width="4" height="4" rx="2" fill="#64ffda"/></svg></span>
+      <span class="mono text-lg font-bold tracking-widest text-[#64ffda]">Pranav Gupta</span>
+    </div>
+    <ul class="flex gap-7 text-base">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#work">Work Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Hero Section -->
+  <section id="home" class="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-b from-[#0a192f] to-[#112240]">
+    <div class="max-w-2xl mx-auto">
+      <h1 class="text-5xl md:text-6xl font-extrabold text-[#64ffda] mb-4 mono tracking-tight">Embedded Hardware Engineer</h1>
+      <p class="text-xl md:text-2xl text-[#e0eafc] mb-8">Building reliable, high-performance embedded and hardware systems.<br>Specialized in electronics, firmware, and rapid prototyping.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-tech">Let's Connect</a>
+        <a href="Resume.pdf" class="btn-tech btn-download" download style="margin-left:1rem;">Download Resume</a>
       </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2>About Me</h2>
-
-            <p>I like to complete my work efficiently and with minimum errors. 
-               I take new challenges and try innovating ideas. 
-               Learning new skills and developing new interests is my hobby.
-            </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						   <span>Pranav Gupta</span><br>
-						   <!--<span>1600 Amphitheatre Parkway<br>
-						         Mountain View, CA 94043 US
-                     </span><br>-->
-						   <span>+91 8427311044</span><br>
-                     <span>https://linktr.ee/yolopranav</span>
-					   </p>
-
-               </div>
-
-               <div class="columns download">
-                  <p>
-                     <a href="Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="section-bg max-w-5xl mx-auto mt-10">
+    <h2 class="section-title">About Me</h2>
+    <div class="flex flex-col md:flex-row gap-8 items-center">
+      <img src="images/profilepic.jpg" alt="Profile" class="rounded-full w-40 h-40 object-cover border-4 border-[#64ffda] shadow-lg mb-6 md:mb-0">
+      <div>
+        <p class="text-lg leading-relaxed mb-2">Embedded Engineer with a strong foundation in electronics and firmware development. Experienced in 3D printing systems, rapid prototyping, and custom PCB design. Focused on building reliable, end-to-end embedded solutions.</p>
+        <ul class="mt-4 text-base text-[#64ffda] mono">
+          <li>Location: Chandigarh, India</li>
+          <li>Email: guptapranav0144@gmail.com</li>
+          <li>Phone: +91 8427311044</li>
+        </ul>
       </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>UIET, Panjab University</h3>
-                  <p class="info">Bachelor in Engineering <span>&bull;</span> <em class="date">2021 - 2025</em></p>
-
-                  <p>Still completing my course. Got recruited in various committees. Participating in all sessions related to software development. Applying for internships that will help me learn new things.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Bhavan Vidyalaya Panchkula</h3>
-                  <p class="info">Primary schooling <span>&bull;</span> <em class="date">2012 - 2021</em></p>
-
-                  <p>92.4% as final score by CBSE. Scored AIR-7 in Technothlon – IIT Guwahati and attended the “Techniche” event for 5 days at the campus. Awarded with “Junior Scientist” in class 8. Participated in almost every science exhibition with working models.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Saupin's School, Panchkula</h3>
-                  <p class="info">Pre-primary schooling <span>&bull;</span> <em class="date">2007 - 2012</em></p>
-
-                  <p>Completed my studies uptill class 3rd here.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>IGC Indian Gaming Community</h3>
-                  <p class="info">Co-Founder <span>&bull;</span> <em class="date">Jul 2020 - Present</em></p>
-
-                  <p>I alomg with my friend created a discord gaming community for competitive gamers all over India. We organised gaming tournamnets with cash prizes open for all.
-                  </p>
-
-                  <p class="info">Organisaton Manager <span>&bull;</span> <em class="date">Jul 2020 - Dec 2021</em></p>
-
-                  <p>I handled all the staff and its working in the organisation.
-                  </p>
-
-                  <p class="info">HR Manager <span>&bull;</span> <em class="date">Jul 2020 - Dec 2021</em></p>
-
-                  <p>I helped in recruiting new staff members to the IGC team.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>DIC Panjab University</h3>
-                  <p class="info">Research And Development Intern <span>&bull;</span> <em class="date">March 2022 - Present</em></p>
-
-                  <p>I am working on embedded systems and bio-signals in Bionic Arm and IoMT projects. I am working on AutoCAD using Autodesk Fusion360. I am also exploring ML/AI along with python.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Milda</h3>
-                  <p class="info">Development Intern <span>&bull;</span> <em class="date">Jan 2022 - Feb 2022</em></p>
-
-                  <p>“Milda” is a dating application. I worked as a backend intern with the team for developing a web portal for the application.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <p>These are some of my skills, I'm good at...
-            </p>
-
-				<div class="bars">
-
-				   <ul class="skills">
-					   <li><span class="bar-expand embedded"></span><em>Embedded Systems</em></li>
-                  <li><span class="bar-expand bio"></span><em>Bio-signals</em></li>
-						<li><span class="bar-expand webdev"></span><em>Mern-stack Webdev</em></li>
-						<li><span class="bar-expand graphic"></span><em>Graphic Designing</em></li>
-						<li><span class="bar-expand opencv"></span><em>opencv-Python</em></li>
-                  <li><span class="bar-expand autocad"></span><em>AUTOCAD</em></li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
-
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">Thanks a lot for taking a look at my work. <br>For any queries or some work for me feel free to contact.
-                  </p>
-
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Email and Phone</h4>
-					   <p class="address">
-						   Pranav Gupta<br>
-						   <!--<span>1600 Amphitheatre Parkway<br>
-						         Mountain View, CA 94043 US
-                     </span><br>-->
-						   +91 8427311044<br>
-                     https://linktr.ee/yolopranav
-					   </p>
-
-				   </div>
-
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Recent Activity</h4>
-
-                  <ul id="activity">
-                     <li>
-                        <span>
-                        <a href="#"></a>
-                        </span>
-                        <b><a href="#">No recents</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
-
-            </aside>
-
+    </div>
+  </section>
+  <!-- Education Section -->
+  <section id="education" class="section-bg max-w-5xl mx-auto">
+    <h2 class="section-title">Education</h2>
+    <div class="mb-8">
+      <div class="card-tech mb-4">
+        <h3 class="text-[#64ffda] text-lg font-bold mb-2">University Institute of Engineering and Technology, Panjab University <span class="text-[#00f2fe] text-base font-normal">2021 – 2025</span></h3>
+        <div class="text-[#43aa8b] mb-2">B.E. in Information Technology - CGPA: 7.26/10 | Chandigarh, India</div>
+        <ul class="list-disc pl-8 text-[#e0eafc] mb-2">
+          <li>Coursework: Computer Networks & Security, Microprocessors, Digital Electronics, Theory of Computation, IoT, C++, Python</li>
+          <li>Faculty Guided Projects: Voice Assistant (ML) [Major], UIET Result Portal (Web), Indian Army Archives Portal (Web)</li>
+          <li>Volunteer: Class Representative, Linux Speaker @ Software Freedom Day ’23, PU, Programming Club, Sports Committee</li>
+        </ul>
       </div>
-
-   </section> <!-- Contact Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://www.facebook.com/yolo.pranav"><i class="fa fa-facebook"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-               <li><a href="guptapranav0144@gmail.com"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/pranav-gupta-863179225/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/yolo.pranav"><i class="fa fa-instagram"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-               <!--<li><a href="#"><i class="fa fa-skype"></i></a></li>-->
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
+      <div class="card-tech mb-4">
+        <h3 class="text-[#64ffda] text-lg font-bold mb-2">Bhavan Vidyalaya, Panchkula <span class="text-[#00f2fe] text-base font-normal">2012 – 2021</span></h3>
+        <div class="text-[#43aa8b] mb-2">Primary Schooling • CBSE</div>
+        <ul class="list-disc pl-8 text-[#e0eafc] mb-2">
+          <li>92.4% as final score by CBSE</li>
+          <li>Scored AIR-7 in Technothlon – IIT Guwahati and attended the “Techniche” event for 5 days at the campus</li>
+          <li>Awarded with “Junior Scientist” in class 8</li>
+          <li>Participated in almost every science exhibition with working models</li>
+        </ul>
       </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-
+      <div class="card-tech mb-4">
+        <h3 class="text-[#64ffda] text-lg font-bold mb-2">Saupin's School, Panchkula <span class="text-[#00f2fe] text-base font-normal">2007 – 2012</span></h3>
+        <div class="text-[#43aa8b] mb-2">Pre-primary Schooling</div>
+        <ul class="list-disc pl-8 text-[#e0eafc] mb-2">
+          <li>Completed my studies uptill class 3rd here</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Work Section -->
+  <section id="work" class="section-bg max-w-5xl mx-auto">
+    <h2 class="section-title">Work Experience</h2>
+    <div class="work-cards space-y-8">
+      <!-- Example work card, repeat for each experience -->
+      <div class="work-card bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3>Thinkmetal Pvt. Ltd., Chennai, India</h3>
+        <div class="work-meta"><span class="work-role">Embedded Engineer</span> <span class="work-date">Jan 2025 – Present</span></div>
+        <ul>
+          <li>Developed custom Klipper firmware and tested 3D printer motherboard integration for metal printers using C++/Python</li>
+          <li>Design and optimisation of mechanical systems and printer electronics improving mechanical assembly efficiency by 15%</li>
+          <li>Designed PCBs and implemented communication protocols to interface multiple peripheral devices with motherboard</li>
+          <li>Improved print quality and overall system performance through hands-on R&D on profiles and rapid prototyping by 30%</li>
+          <li>Enhanced skills used in electronic & mechanical assembly of Voron Trident and proprietary FFF Metal Printer (Sistem T1)</li>
+          <li>Ensured electrical/mechanical safety with grounding, ESD-safe PPE, LOTO tags, E-stop, and standard industrial protocols</li>
+          <li>Maintained structured documentation with tool checklists, safety logs, and daily tracking of research, tests, and updates</li>
+        </ul>
+      </div>
+      <div class="work-card bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3>Jugaad Robotics Club, UIET, Chandigarh, India</h3>
+        <div class="work-meta"><span class="work-role">President</span> <span class="work-date">Dec 2021 – Oct 2024</span></div>
+        <ul>
+          <li>Worked on robotics and embedded systems prototypes while leading technical events, internal builds, and club operations</li>
+          <li>Actively participated in hands-on projects and mentored students in microcontrollers, sensors, and prototyping</li>
+          <li>Led Industry 4.0-focused projects like E-Conveyer and Effluent Monitor, under faculty guidance and peer collaboration</li>
+        </ul>
+      </div>
+      <div class="work-card bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3>ThinkMetal Pvt. Ltd., Chennai, India</h3>
+        <div class="work-meta"><span class="work-role">Software Developer Summer Intern</span> <span class="work-date">Jun 2024 – Aug 2024</span></div>
+        <ul>
+          <li>Built React.js UI with DevTools & CLI-based tools and SEO improvements, increasing website visibility and traffic by 40%</li>
+          <li>Worked across system repos using Tauri, Node.js, WRTC, WebSocket, Python APIs, and on embedded Linux SBC systems.</li>
+          <li>Enabled cloud access for remote 3D printer control, improving user-machine accessibility by approximately 60%</li>
+          <li>Implemented encrypted cloud communication for secure data exchange between user interface and 3D printer firmware</li>
+        </ul>
+      </div>
+      <div class="work-card bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3>MDaRT-DIC, Panjab University, Chandigarh, India</h3>
+        <div class="work-meta"><span class="work-role">R&D Intern and Mentor</span> <span class="work-date">Mar 2022 – Jul 2023</span></div>
+        <ul>
+          <li>Led design of prosthetic arm by hybrid signal acquisition, 3D Scans, additive manufacturing enhancing user function</li>
+          <li>Co-developed medical 3D printer for 500°C PEEK printing. Handled mechatronics and studied laminar flow in printing</li>
+          <li>Mentored students from various colleges during summer training in embedded systems, prototyping, and 3d printing</li>
+        </ul>
+      </div>
+      <div class="work-card bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3>IGC Indian Gaming Community</h3>
+        <div class="work-meta"><span class="work-role">Co-Founder</span> <span class="work-date">Jul 2020 - Oct 2022</span></div>
+        <p>I alomg with my friend created a discord gaming community for competitive gamers all over India. We organised gaming tournamnets with cash prizes open for all.</p>
+        <div class="work-meta"><span class="work-role">Organisaton Manager</span> <span class="work-date">Jul 2020 - Dec 2021</span></div>
+        <p>I handled all the staff and its working in the organisation.</p>
+        <div class="work-meta"><span class="work-role">HR Manager</span> <span class="work-date">Jul 2020 - Dec 2021</span></div>
+        <p>I helped in recruiting new staff members to the IGC team.</p>
+      </div>
+      <div class="work-card bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3>Milda</h3>
+        <div class="work-meta"><span class="work-role">Development Intern</span> <span class="work-date">Jan 2022 - Feb 2022</span></div>
+        <p>“Milda” is a dating application. I worked as a backend intern with the team for developing a web portal for the application.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section id="skills" class="section-bg max-w-5xl mx-auto">
+    <h2 class="section-title">Skills</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="card-tech h-full flex flex-col">
+        <h3 class="text-[#64ffda] text-lg font-bold mb-2">Firmware / Tools</h3>
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="skill-badge">Klipper</span><span class="skill-badge">Marlin</span><span class="skill-badge">STM32CubeIDE</span><span class="skill-badge">ROS</span><span class="skill-badge">Free RTOS</span><span class="skill-badge">Embedded C</span><span class="skill-badge">Arduino IDE</span><span class="skill-badge">PlatformIO</span><span class="skill-badge">KiCad</span><span class="skill-badge">Linux</span>
+        </div>
+      </div>
+      <div class="card-tech h-full flex flex-col">
+        <h3 class="text-[#64ffda] text-lg font-bold mb-2">Boards / Protocols</h3>
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="skill-badge">STM32HXXX</span><span class="skill-badge">ESP32</span><span class="skill-badge">3D Printer Boards</span><span class="skill-badge">RaspberryPi</span><span class="skill-badge">Latte Panda</span><span class="skill-badge">SPI</span><span class="skill-badge">I2C</span><span class="skill-badge">Ethernet</span><span class="skill-badge">UART</span><span class="skill-badge">CAN</span>
+        </div>
+      </div>
+      <div class="card-tech h-full flex flex-col">
+        <h3 class="text-[#64ffda] text-lg font-bold mb-2">Hardware / Tools</h3>
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="skill-badge">Control Systems</span><span class="skill-badge">PCB Designing</span><span class="skill-badge">Sensor integrations</span><span class="skill-badge">Soldering</span><span class="skill-badge">Crimping</span><span class="skill-badge">Mechanical Assembly</span>
+        </div>
+      </div>
+      <div class="card-tech h-full flex flex-col">
+        <h3 class="text-[#64ffda] text-lg font-bold mb-2">Programming / Tools</h3>
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="skill-badge">C++</span><span class="skill-badge">Python</span><span class="skill-badge">HTML</span><span class="skill-badge">ReactJS</span><span class="skill-badge">MERN</span><span class="skill-badge">Jinja2</span><span class="skill-badge">Shell</span><span class="skill-badge">VS Code</span><span class="skill-badge">Vim</span><span class="skill-badge">Git</span><span class="skill-badge">Docker</span><span class="skill-badge">Postman</span><span class="skill-badge">AWS</span><span class="skill-badge">Figma</span>
+        </div>
+      </div>
+      <div class="card-tech h-full flex flex-col">
+        <h3 class="text-[#64ffda] text-lg font-bold mb-2">3D Printing</h3>
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="skill-badge">Assembly & Debugging (Ender, Voron, Bambu X1C)</span><span class="skill-badge">Slicing (CrealityPrint, Orca, Prusa, Cura)</span><span class="skill-badge">Fusion 360</span>
+        </div>
+      </div>
+      <div class="card-tech h-full flex flex-col">
+        <h3 class="text-[#64ffda] text-lg font-bold mb-2">Soft Skills</h3>
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="skill-badge">Continuous Learning</span><span class="skill-badge">Strategic Thinking</span><span class="skill-badge">Time Optimization</span><span class="skill-badge">Collaboration</span><span class="skill-badge">Leadership</span><span class="skill-badge">Documentation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section id="projects" class="section-bg max-w-5xl mx-auto">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Nano Navigator <span class="text-[#00f2fe] text-base font-normal">2024</span></h3>
+        <div class="text-[#43aa8b] mb-2">STM32F1XXX, Buck/Boost Converters, DC motors, L293D IC, IR and Ultrasonic Sensors, Soldering</div>
+        <p>Powered by advanced sensors, precise motors, and smart algorithms, the micro mouse navigates mazes efficiently.</p>
+      </div>
+      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Faraday Station <span class="text-[#00f2fe] text-base font-normal">2024</span></h3>
+        <div class="text-[#43aa8b] mb-2">Copper inductive coils, EMI, Rectifier, Voltage Regulators, Current Regulators</div>
+        <p>Prototype for wireless charging of moving electric vehicles using a chain of induction plates embedded in roads.</p>
+      </div>
+      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Effluent Monitor <span class="text-[#00f2fe] text-base font-normal">2023</span></h3>
+        <div class="text-[#43aa8b] mb-2">ESP32, IR Distance Sensor, Floats for industrial chemicals, Wi-Fi / BLE based mobile app</div>
+        <p>IoT solution for real-time effluent level monitoring in chemical tankers to ensure secure and tamper-proof transportation</p>
+      </div>
+      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3 class="text-[#64ffda] text-xl font-bold mb-2">E-Conveyer <span class="text-[#00f2fe] text-base font-normal">2023</span></h3>
+        <div class="text-[#43aa8b] mb-2">ESP32, NEMA17 Stepper Motors, IR sensors, Wi-Fi / BLE based mobile app</div>
+        <p>IoT-based system for real-time monitoring of assembly line products via a mobile app with real-time alerts.</p>
+      </div>
+      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Medical Grade 3D Printer <span class="text-[#00f2fe] text-base font-normal">2023</span></h3>
+        <div class="text-[#43aa8b] mb-2">BTT SKR, Extruder for PEEK printing, FDM assembly, Laminar Flow, Pronterface, Marlin</div>
+        <p>FDM 3D printer for 500°C PEEK printing with high-temp hotend, mechatronic systems, and laminar airflow for precision</p>
+      </div>
+      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Bionic Prosthetic Arm <span class="text-[#00f2fe] text-base font-normal">2022</span></h3>
+        <div class="text-[#43aa8b] mb-2">Myoware sensors, EEG cap, servo motors, arduino, esp32</div>
+        <p>Transradial prosthetic arm using EEG/EMG bio-signals, 3D anatomical scanning, FFF/SLA 3D printing to improve user control</p>
+      </div>
+    </div>
+  </section>
+  <!-- Achievements Section -->
+  <section id="achievements" class="section-bg max-w-5xl mx-auto">
+    <h2 class="section-title">Achievements</h2>
+    <ul class="list-disc pl-8 text-lg text-[#e0eafc]">
+      <li><b>1st Place Cognizance (National Level - IIT Roorkee):</b> E-Conveyer, Faraday Station 2023, 2024</li>
+      <li><b>AIR-7 Technothlon (IIT Guwahati):</b> National level competition 2018</li>
+      <li><b>Junior Scientist Award (Bhavan Vidyalaya):</b> Leadership and technical recognition 2017</li>
+    </ul>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="section-bg max-w-5xl mx-auto">
+    <h2 class="section-title">Contact</h2>
+    <div class="flex flex-col md:flex-row gap-8">
+      <form action="https://formsubmit.co/212da8c76086be9e562ccd10a2e437bd" method="POST" target="_self" class="flex-1 space-y-5">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://yolopranav.github.io/thanks.html">
+        <div>
+          <label for="contactName" class="block text-[#64ffda] mono mb-1">Name <span class="text-red-400">*</span></label>
+          <input type="text" id="contactName" name="Name" class="form-input" required>
+        </div>
+        <div>
+          <label for="contactEmail" class="block text-[#64ffda] mono mb-1">Email <span class="text-red-400">*</span></label>
+          <input type="email" id="contactEmail" name="Email" class="form-input" required>
+        </div>
+        <div>
+          <label for="contactSubject" class="block text-[#64ffda] mono mb-1">Subject</label>
+          <input type="text" id="contactSubject" name="_subject" class="form-input">
+        </div>
+        <div>
+          <label for="contactMessage" class="block text-[#64ffda] mono mb-1">Message <span class="text-red-400">*</span></label>
+          <textarea id="contactMessage" name="Message" rows="6" class="form-textarea" required></textarea>
+        </div>
+        <button type="submit" class="btn-tech">Submit</button>
+      </form>
+      <div class="flex-1 flex flex-col gap-6 justify-center">
+        <div class="card-tech">
+          <h3 class="text-[#64ffda] text-lg font-bold mb-2">Contact Details</h3>
+          <ul class="mono text-base">
+            <li><b>Name:</b> Pranav Gupta</li>
+            <li><b>Phone:</b> +91 8427311044</li>
+            <li><b>Email:</b> guptapranav0144@gmail.com</li>
+            <li><b>Linktree:</b> <a href="https://linktr.ee/yolopranav" class="text-[#00f2fe] hover:underline">linktr.ee/yolopranav</a></li>
+          </ul>
+        </div>
+        <div class="card-tech">
+          <h3 class="text-[#64ffda] text-lg font-bold mb-2">Recent Activity</h3>
+          <ul class="mono text-base">
+            <li>No recents</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="w-full py-8 bg-[#112240] border-t border-[#64ffda33] mt-10">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+      <ul class="flex gap-6 mb-2 md:mb-0">
+        <li><a href="https://www.facebook.com/yolo.pranav" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="mailto:guptapranav0144@gmail.com" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl"><i class="fab fa-google-plus-g"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/pranav-gupta-863179225/" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://www.instagram.com/yolo.pranav" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+      <div class="text-[#e0eafc] text-sm mono">&copy; 2025 Pranav Gupta &mdash; Embedded Hardware Engineer</div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
 </body>
-
 </html>
