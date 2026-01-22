@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="main.css">
-  <link rel="shortcut icon" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.jpg">
 </head>
 <body class="min-h-screen">
   <!-- Navigation -->
@@ -60,7 +60,7 @@
   <section id="about" class="section-bg max-w-5xl mx-auto mt-10">
     <h2 class="section-title">About Me</h2>
     <div class="flex flex-col md:flex-row gap-8 items-center">
-      <img src="images/profilepic.jpg" alt="Profile" class="rounded-full w-40 h-40 object-cover border-4 border-[#64ffda] shadow-lg mb-6 md:mb-0">
+      <img src="favicon.jpg" alt="Profile" class="rounded-full w-40 h-40 object-cover border-4 border-[#64ffda] shadow-lg mb-6 md:mb-0">
       <div>
         <p class="text-lg leading-relaxed mb-2">Embedded Engineer with a strong foundation in electronics and firmware development. Experienced in 3D printing systems, rapid prototyping, and custom PCB design. Focused on building reliable, end-to-end embedded solutions.</p>
         <ul class="mt-4 text-base text-[#64ffda] mono">
@@ -211,36 +211,42 @@
   <section id="projects" class="section-bg max-w-5xl mx-auto">
     <h2 class="section-title">Projects</h2>
     <div class="grid md:grid-cols-2 gap-8">
-      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
-        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Nano Navigator <span class="text-[#00f2fe] text-base font-normal">2024</span></h3>
-        <div class="text-[#43aa8b] mb-2">STM32F1XXX, Buck/Boost Converters, DC motors, L293D IC, IR and Ultrasonic Sensors, Soldering</div>
-        <p>Powered by advanced sensors, precise motors, and smart algorithms, the micro mouse navigates mazes efficiently.</p>
-      </div>
-      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
-        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Faraday Station <span class="text-[#00f2fe] text-base font-normal">2024</span></h3>
-        <div class="text-[#43aa8b] mb-2">Copper inductive coils, EMI, Rectifier, Voltage Regulators, Current Regulators</div>
-        <p>Prototype for wireless charging of moving electric vehicles using a chain of induction plates embedded in roads.</p>
-      </div>
-      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
-        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Effluent Monitor <span class="text-[#00f2fe] text-base font-normal">2023</span></h3>
-        <div class="text-[#43aa8b] mb-2">ESP32, IR Distance Sensor, Floats for industrial chemicals, Wi-Fi / BLE based mobile app</div>
-        <p>IoT solution for real-time effluent level monitoring in chemical tankers to ensure secure and tamper-proof transportation</p>
-      </div>
-      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
-        <h3 class="text-[#64ffda] text-xl font-bold mb-2">E-Conveyer <span class="text-[#00f2fe] text-base font-normal">2023</span></h3>
-        <div class="text-[#43aa8b] mb-2">ESP32, NEMA17 Stepper Motors, IR sensors, Wi-Fi / BLE based mobile app</div>
-        <p>IoT-based system for real-time monitoring of assembly line products via a mobile app with real-time alerts.</p>
-      </div>
-      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
-        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Medical Grade 3D Printer <span class="text-[#00f2fe] text-base font-normal">2023</span></h3>
-        <div class="text-[#43aa8b] mb-2">BTT SKR, Extruder for PEEK printing, FDM assembly, Laminar Flow, Pronterface, Marlin</div>
-        <p>FDM 3D printer for 500°C PEEK printing with high-temp hotend, mechatronic systems, and laminar airflow for precision</p>
-      </div>
-      <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
-        <h3 class="text-[#64ffda] text-xl font-bold mb-2">Bionic Prosthetic Arm <span class="text-[#00f2fe] text-base font-normal">2022</span></h3>
-        <div class="text-[#43aa8b] mb-2">Myoware sensors, EEG cap, servo motors, arduino, esp32</div>
-        <p>Transradial prosthetic arm using EEG/EMG bio-signals, 3D anatomical scanning, FFF/SLA 3D printing to improve user control</p>
-      </div>
+        <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+          <img src="images/nanonavigator.jpg" alt="Nano Navigator" class="rounded-lg w-full h-40 object-cover mb-4">
+          <h3 class="text-[#64ffda] text-xl font-bold mb-2">Nano Navigator <span class="text-[#00f2fe] text-base font-normal">2024</span></h3>
+          <div class="text-[#43aa8b] mb-2">STM32F1XXX, Buck/Boost Converters, DC motors, L293D IC, IR and Ultrasonic Sensors, Soldering</div>
+          <p>Powered by advanced sensors, precise motors, and smart algorithms, the micro mouse navigates mazes efficiently.</p>
+        </div>
+        <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+          <img src="images/faradaystation.webp" alt="Faraday Station" class="rounded-lg w-full h-40 object-cover mb-4">
+          <h3 class="text-[#64ffda] text-xl font-bold mb-2">Faraday Station <span class="text-[#00f2fe] text-base font-normal">2024</span></h3>
+          <div class="text-[#43aa8b] mb-2">Copper inductive coils, EMI, Rectifier, Voltage Regulators, Current Regulators</div>
+          <p>Prototype for wireless charging of moving electric vehicles using a chain of induction plates embedded in roads.</p>
+        </div>
+        <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+          <img src="images/overlay-zoom.png" alt="Effluent Monitor" class="rounded-lg w-full h-40 object-cover mb-4">
+          <h3 class="text-[#64ffda] text-xl font-bold mb-2">Effluent Monitor <span class="text-[#00f2fe] text-base font-normal">2023</span></h3>
+          <div class="text-[#43aa8b] mb-2">ESP32, IR Distance Sensor, Floats for industrial chemicals, Wi-Fi / BLE based mobile app</div>
+          <p>IoT solution for real-time effluent level monitoring in chemical tankers to ensure secure and tamper-proof transportation</p>
+        </div>
+        <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+          <img src="images/econveyer.webp" alt="E-Conveyer" class="rounded-lg w-full h-40 object-cover mb-4">
+          <h3 class="text-[#64ffda] text-xl font-bold mb-2">E-Conveyer <span class="text-[#00f2fe] text-base font-normal">2023</span></h3>
+          <div class="text-[#43aa8b] mb-2">ESP32, NEMA17 Stepper Motors, IR sensors, Wi-Fi / BLE based mobile app</div>
+          <p>IoT-based system for real-time monitoring of assembly line products via a mobile app with real-time alerts.</p>
+        </div>
+        <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+          <img src="images/printer.jpg" alt="Medical Grade 3D Printer" class="rounded-lg w-full h-40 object-cover mb-4">
+          <h3 class="text-[#64ffda] text-xl font-bold mb-2">Medical Grade 3D Printer <span class="text-[#00f2fe] text-base font-normal">2023</span></h3>
+          <div class="text-[#43aa8b] mb-2">BTT SKR, Extruder for PEEK printing, FDM assembly, Laminar Flow, Pronterface, Marlin</div>
+          <p>FDM 3D printer for 500°C PEEK printing with high-temp hotend, mechatronic systems, and laminar airflow for precision</p>
+        </div>
+        <div class="card-tech bg-[#1a2636] border border-[#233554] rounded-xl shadow-lg p-6 text-[#e0eafc]">
+          <img src="images/bionic_prosthetic_arm.png" alt="Bionic Prosthetic Arm" class="rounded-lg w-full h-40 object-cover mb-4">
+          <h3 class="text-[#64ffda] text-xl font-bold mb-2">Bionic Prosthetic Arm <span class="text-[#00f2fe] text-base font-normal">2022</span></h3>
+          <div class="text-[#43aa8b] mb-2">Myoware sensors, EEG cap, servo motors, arduino, esp32</div>
+          <p>Transradial prosthetic arm using EEG/EMG bio-signals, 3D anatomical scanning, FFF/SLA 3D printing to improve user control</p>
+        </div>
     </div>
   </section>
   <!-- Achievements Section -->
@@ -300,10 +306,10 @@
   <footer class="w-full py-8 bg-[#112240] border-t border-[#64ffda33] mt-10">
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
       <ul class="flex gap-6 mb-2 md:mb-0">
-        <li><a href="https://www.facebook.com/yolo.pranav" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="mailto:guptapranav0144@gmail.com" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl"><i class="fab fa-google-plus-g"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/pranav-gupta-863179225/" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://www.instagram.com/yolo.pranav" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/yolo.pranav" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="mailto:guptapranav0144@gmail.com" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl" target="_blank"><i class="fas fa-envelope"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/pranav-gupta-863179225/" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://www.github.com/yolo-pranav" class="text-[#64ffda] hover:text-[#00f2fe] text-2xl" target="_blank"><i class="fab fa-github"></i></a></li>
       </ul>
       <div class="text-[#e0eafc] text-sm mono">&copy; 2025 Pranav Gupta &mdash; Embedded Hardware Engineer</div>
     </div>
